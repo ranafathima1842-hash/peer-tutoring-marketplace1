@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Tutor | Peer Tutoring Marketplace</title>
+</head>
+<body>
+
+    <header>
+        <h1>Peer Tutoring Marketplace</h1>
+        <p>Learn together, grow together.</p>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="tutor.html">Tutor Profile</a>
+            <a href="become-a-tutor.html">Become a Tutor</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Become a Tutor</h2>
+            <p>
+                Share your knowledge, help other students,
+                improve your skills, and earn money while teaching.
+            </p>
+
+            <h3>Why Teach With Us?</h3>
+            <ul>
+                <li>Help students learn new skills.</li>
+                <li>Choose subjects you know well.</li>
+                <li>Build your teaching experience.</li>
+                <li>Set your preferred hourly rate.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tutor Registration Form</h2>
+
+            <form action="#" method="get">
+
+                <label for="tutor-name">Full Name:</label>
+                <input type="text" id="tutor-name"
+                       name="tutor-name" required>
+                <br><br>
+
+                <label for="tutor-email">Email Address:</label>
+                <input type="email" id="tutor-email"
+                       name="tutor-email" required>
+                <br><br>
+
+                <label for="tutor-subject">Subject You Teach:</label>
+                <select id="tutor-subject"
+                        name="tutor-subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="spoken-english">Spoken English</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="music">Music</option>
+                </select>
+                <br><br>
+
+                <label for="tutor-experience">Teaching Experience:</label>
+                <input type="text" id="tutor-experience"
+                       name="tutor-experience"
+                       placeholder="e.g. 1 year" required>
+                <br><br>
+
+                <label for="tutor-rate">Hourly Rate (₹):</label>
+                <input type="number" id="tutor-rate"
+                       name="tutor-rate" min="1" required>
+                <br><br>
+
+                <label for="tutor-bio">Tell Us About Yourself:</label>
+                <textarea id="tutor-bio" name="tutor-bio"
+                          rows="4" required></textarea>
+                <br><br>
+
+                <button type="submit">Register as a Tutor</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Peer Tutoring Marketplace. All rights reserved.</p>
+        <p>Contact us: tutoring@example.com</p>
+    </footer>
+
+</body>
+</html>
